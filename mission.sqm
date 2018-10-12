@@ -8,18 +8,18 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=834;
+		nextID=954;
 	};
 	class MarkerIDProvider
 	{
-		nextID=10;
+		nextID=11;
 	};
 	class Camera
 	{
-		pos[]={9346.5908,18.553991,5017.0874};
-		dir[]={0.72116888,-0.26013806,0.64207852};
-		up[]={0.19429579,0.96556801,0.17298797};
-		aside[]={0.66497093,-4.7330104e-008,-0.74688196};
+		pos[]={6351.8345,37.169998,7026.3774};
+		dir[]={0.0055165053,-0.36017391,-0.93287551};
+		up[]={0.0021297578,0.93288577,-0.36017093};
+		aside[]={-0.9999916,-4.6846253e-008,-0.005913164};
 	};
 };
 binarizationWanted=0;
@@ -64,13 +64,53 @@ addons[]=
 	"CUP_Creatures_StaticWeapons",
 	"CUP_Misc_e_Config",
 	"A3_Structures_F_Exp_Military_Fortifications",
-	"A3_Air_F_Exp_Plane_Civil_01"
+	"A3_Air_F_Exp_Plane_Civil_01",
+	"A3_Characters_F_Common",
+	"A3_Drones_F_Air_F_Gamma_UAV_02",
+	"A3_Air_F_Jets_UAV_05",
+	"A3_Drones_F_Air_F_Gamma_UAV_01",
+	"CUP_WheeledVehicles_Datsun",
+	"A3_Soft_F_Gamma_Van_01",
+	"ace_refuel",
+	"CUP_Wheeledvehicles_VWGolf",
+	"A3_Soft_F_Gamma_Hatchback_01",
+	"A3_Soft_F_Exp_Offroad_02",
+	"A3_Soft_F_Gamma_Truck_02",
+	"A3_Soft_F_Beta_Truck_02",
+	"A3_Soft_F_Kart_Kart_01",
+	"A3_Soft_F_Offroad_01",
+	"A3_Soft_F_Quadbike_01",
+	"CUP_wheeledvehicles_Octaiva",
+	"A3_Soft_F_Gamma_SUV_01",
+	"A3_Soft_F_Orange_Van_02",
+	"CUP_WheeledVehicles_Skoda",
+	"CUP_WheeledVehicles_S1203",
+	"CUP_WheeledVehicles_Ikarus",
+	"CUP_WheeledVehicles_Lada",
+	"CUP_Wheeled_SUV",
+	"CUP_WheeledVehicles_Ural",
+	"A3_Soft_F_Beta_MRAP_03",
+	"A3_Soft_F_Bootcamp_Van_01",
+	"CUP_WheeledVehicles_Strider",
+	"CUP_WheeledVehicles_MATV",
+	"CUP_WheeledVehicles_Offroad_02",
+	"CUP_WheeledVehicles_LSV_02",
+	"CUP_WheeledVehicles_Van02",
+	"A3_Armor_F_EPB_APC_Tracked_03",
+	"acre_sys_intercom",
+	"CUP_TrackedVehicles_M113",
+	"A3_Armor_F_Gamma_APC_Wheeled_03",
+	"A3_Armor_F_EPB_MBT_03",
+	"A3_Armor_F_Tank_LT_01",
+	"CUP_TrackedVehicles_BMP",
+	"CUP_WheeledVehicles_BRDM2",
+	"CUP_WheeledVehicles_BTR40"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=36;
+		items=67;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -283,6 +323,193 @@ class AddonsMetaData
 			name="Arma 3 Apex - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item36
+		{
+			className="A3_Drones_F";
+			name="Arma 3 Beta - Drones";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item37
+		{
+			className="CUP_WheeledVehicles_Datsun";
+			name="CUP_WheeledVehicles_Datsun";
+		};
+		class Item38
+		{
+			className="A3_Soft_F_Gamma";
+			name="Arma 3 - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item39
+		{
+			className="ace_refuel";
+			name="ACE3 - Refuel";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item40
+		{
+			className="CUP_Wheeledvehicles_VWGolf";
+			name="CUP_Wheeledvehicles_VWGolf";
+		};
+		class Item41
+		{
+			className="A3_Soft_F_Exp";
+			name="Arma 3 Apex - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item42
+		{
+			className="A3_Soft_F_Beta";
+			name="Arma 3 Beta - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item43
+		{
+			className="A3_Soft_F_Kart";
+			name="Arma 3 Karts - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item44
+		{
+			className="A3_Soft_F";
+			name="Arma 3 Alpha - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item45
+		{
+			className="CUP_wheeledvehicles_Octaiva";
+			name="CUP_wheeledvehicles_Octaiva";
+		};
+		class Item46
+		{
+			className="A3_Soft_F_Orange";
+			name="Arma 3 Orange - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item47
+		{
+			className="CUP_WheeledVehicles_Skoda";
+			name="CUP_WheeledVehicles_Skoda";
+		};
+		class Item48
+		{
+			className="CUP_WheeledVehicles_S1203";
+			name="CUP_WheeledVehicles_S1203";
+		};
+		class Item49
+		{
+			className="CUP_WheeledVehicles_Ikarus";
+			name="CUP_WheeledVehicles_Ikarus";
+		};
+		class Item50
+		{
+			className="CUP_WheeledVehicles_Lada";
+			name="CUP_WheeledVehicles_Lada";
+		};
+		class Item51
+		{
+			className="CUP_Wheeled_SUV";
+			name="CUP_Wheeled_SUV";
+		};
+		class Item52
+		{
+			className="CUP_WheeledVehicles_Ural";
+			name="CUP_WheeledVehicles_Ural";
+		};
+		class Item53
+		{
+			className="A3_Soft_F_Bootcamp";
+			name="Arma 3 Bootcamp Update - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item54
+		{
+			className="CUP_WheeledVehicles_Strider";
+			name="CUP_WheeledVehicles_Strider";
+			author="Community Upgrade Project";
+		};
+		class Item55
+		{
+			className="CUP_WheeledVehicles_MATV";
+			name="CUP_WheeledVehicles_MATV";
+			author="Community Upgrade Project";
+		};
+		class Item56
+		{
+			className="CUP_WheeledVehicles_Offroad_02";
+			name="CUP_WheeledVehicles_Offroad_02";
+			author="Community Upgrade Project";
+		};
+		class Item57
+		{
+			className="CUP_WheeledVehicles_LSV_02";
+			name="CUP_WheeledVehicles_LSV_02";
+			author="Community Upgrade Project";
+		};
+		class Item58
+		{
+			className="CUP_WheeledVehicles_Van02";
+			name="CUP_WheeledVehicles_Van02";
+			author="Community Upgrade Project";
+		};
+		class Item59
+		{
+			className="A3_Armor_F_EPB";
+			name="Arma 3 Adapt Episode - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item60
+		{
+			className="acre_sys_intercom";
+			name="ACRE2 - Vehicle Intercom";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item61
+		{
+			className="CUP_TrackedVehicles_M113";
+			name="CUP_TrackedVehicles_M113";
+		};
+		class Item62
+		{
+			className="A3_Armor_F_Gamma";
+			name="Arma 3 - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item63
+		{
+			className="A3_Armor_F_Tank";
+			name="Arma 3 Tank - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item64
+		{
+			className="CUP_TrackedVehicles_BMP";
+			name="CUP_TrackedVehicles_BMP";
+			author="Community Cupgrade Project";
+		};
+		class Item65
+		{
+			className="CUP_WheeledVehicles_BRDM2";
+			name="CUP_WheeledVehicles_BRDM2";
+		};
+		class Item66
+		{
+			className="CUP_WheeledVehicles_BTR40";
+			name="CUP_WheeledVehicles_BTR40";
 		};
 	};
 };
@@ -636,7 +863,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=111;
+		items=221;
 		class Item0
 		{
 			dataType="Logic";
@@ -1089,6 +1316,7 @@ class Mission
 					};
 					id=699;
 					type="CUP_C_C_Citizen_04";
+					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1137,6 +1365,7 @@ class Mission
 			{
 			};
 			id=698;
+			atlOffset=-9.5367432e-007;
 		};
 		class Item6
 		{
@@ -2918,7 +3147,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{this addAction [""Teleport naar voertuigen"", {player setPos ([""voertuigen""] call CBA_fnc_randPosArea); player setDir 90;} ]}";
+				init="call{this addAction [""Teleport naar luchtvaarttuigen"", {player setPos ([""voertuigen""] call CBA_fnc_randPosArea); player setDir 90;} ]}";
 			};
 			id=743;
 			type="MapBoard_altis_F";
@@ -4415,7 +4644,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3009.3674,16.501116,6856.9629};
-				angles[]={-0,6.2155294,0.022993837};
+				angles[]={0,6.2155294,0.022993837};
 			};
 			side="Empty";
 			flags=4;
@@ -4431,7 +4660,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3016.5525,15.886699,7021.293};
-				angles[]={-0,4.6240306,0};
+				angles[]={0,4.6240306,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4447,7 +4676,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3013.991,16.120867,6953.7944};
-				angles[]={-0,4.6086326,0};
+				angles[]={0,4.6086326,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4596,7 +4825,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2953.7551,14.831908,7165.2896};
-				angles[]={-0,3.0892222,0};
+				angles[]={0,3.0892222,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4635,7 +4864,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2947.1636,14.833406,7163.2197};
-				angles[]={-0,3.1017654,0};
+				angles[]={0,3.1017654,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4674,7 +4903,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2940.2405,14.836408,7162.5649};
-				angles[]={-0,3.070085,0};
+				angles[]={0,3.070085,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4713,7 +4942,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2939.2334,14.833406,7168.4688};
-				angles[]={-0,4.6613183,0};
+				angles[]={0,4.6613183,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4752,7 +4981,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2944.5698,14.833406,7174.4629};
-				angles[]={-0,6.2402625,0};
+				angles[]={0,6.2402625,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4791,7 +5020,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2938.532,14.836408,7173.6284};
-				angles[]={-0,4.6587477,0};
+				angles[]={0,4.6587477,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4830,7 +5059,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2949.845,14.836408,7175.0625};
-				angles[]={-0,6.211091,0};
+				angles[]={0,6.211091,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4869,7 +5098,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={2951.0249,14.833406,7170.2822};
-				angles[]={-0,1.4841741,0};
+				angles[]={0,1.4841741,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4908,7 +5137,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4248.4063,25.247215,1326.4722};
-				angles[]={-0,4.7375474,0};
+				angles[]={0,4.7375474,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4924,7 +5153,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4249.5918,25.247215,1371.1295};
-				angles[]={-0,4.755209,0};
+				angles[]={0,4.755209,0};
 			};
 			side="Empty";
 			flags=4;
@@ -4973,6 +5202,1911 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item111
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={474.23517,19.461437,1678.2988};
+						angles[]={0,0.87242925,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+					};
+					id=837;
+					type="B_UAV_AI";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={474.23517,19.461437,1678.2988};
+						angles[]={0,0.87242925,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=838;
+					type="B_UAV_AI";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=2;
+				};
+				class Links
+				{
+					items=2;
+					class Item0
+					{
+						linkID=0;
+						item0=837;
+						item1=836;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=838;
+						item1=836;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=835;
+		};
+		class Item112
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={474.23517,21.028337,1678.2378};
+				angles[]={0,0.87242925,0};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+				reportRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=836;
+			type="B_UAV_02_dynamicLoadout_F";
+		};
+		class Item113
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={524.10339,1249.9838,1716.2047};
+					};
+					side="West";
+					flags=2;
+					class Attributes
+					{
+					};
+					id=841;
+					type="B_UAV_AI";
+					atlOffset=1230.5002;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={524.10339,1249.9838,1716.2047};
+					};
+					side="West";
+					class Attributes
+					{
+					};
+					id=842;
+					type="B_UAV_AI";
+					atlOffset=1230.5002;
+				};
+				class Item2
+				{
+					dataType="Waypoint";
+					position[]={3466.9971,0.59255129,9941.0898};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=843;
+					type="Move";
+					atlOffset=28.159454;
+				};
+				class Item3
+				{
+					dataType="Waypoint";
+					position[]={3633.3926,0.61621082,349.25354};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=844;
+					type="Move";
+					atlOffset=17.886211;
+				};
+				class Item4
+				{
+					dataType="Waypoint";
+					position[]={526.62903,19.467501,1707.1219};
+					type="Cycle";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=845;
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=2;
+				};
+				class Links
+				{
+					items=2;
+					class Item0
+					{
+						linkID=0;
+						item0=841;
+						item1=840;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=842;
+						item1=840;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=839;
+			atlOffset=1230.5002;
+		};
+		class Item114
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={524.08856,1251.8361,1716.116};
+			};
+			side="West";
+			flags=2;
+			class Attributes
+			{
+				reportRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=840;
+			type="B_UAV_05_F";
+			atlOffset=1230.5002;
+		};
+		class Item115
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7412.1011,9.6000748,1979.7881};
+						angles[]={6.282495,0,0.0055886414};
+					};
+					side="West";
+					flags=2;
+					class Attributes
+					{
+					};
+					id=848;
+					type="B_UAV_AI";
+					atlOffset=4.6486359;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7412.1011,9.6000748,1979.7881};
+						angles[]={6.282495,0,0.0055886414};
+					};
+					side="West";
+					class Attributes
+					{
+					};
+					id=849;
+					type="B_UAV_AI";
+					atlOffset=4.6486359;
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=2;
+				};
+				class Links
+				{
+					items=2;
+					class Item0
+					{
+						linkID=0;
+						item0=848;
+						item1=847;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=849;
+						item1=847;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+			id=846;
+			atlOffset=4.6485968;
+		};
+		class Item116
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7412.0977,9.7490616,1979.7394};
+				angles[]={6.282495,0,0.0055886414};
+			};
+			side="West";
+			flags=2;
+			class Attributes
+			{
+				reportRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=847;
+			type="B_UAV_01_F";
+			atlOffset=4.6485968;
+		};
+		class Item117
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6412.7583,14.169944,7002.3853};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=850;
+			type="CUP_C_Datsun";
+		};
+		class Item118
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6407.2095,14.169944,7002.687};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=851;
+			type="CUP_C_Datsun_4seat";
+		};
+		class Item119
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6401.0659,14.027778,7003.123};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=852;
+			type="C_Van_01_fuel_F";
+		};
+		class Item120
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6394.5342,13.571676,7002.5757};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=853;
+			type="CUP_C_Golf4_black_Civ";
+		};
+		class Item121
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6390.1621,13.571676,7003.1108};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=854;
+			type="CUP_C_Golf4_blue_Civ";
+		};
+		class Item122
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6385.4063,13.551676,7002.5127};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=855;
+			type="CUP_C_Golf4_camo_Civ";
+		};
+		class Item123
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6381.5225,13.551676,7003.1899};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=856;
+			type="CUP_C_Golf4_camodark_Civ";
+		};
+		class Item124
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6376.7271,13.571676,7002.7368};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=857;
+			type="CUP_C_Golf4_green_Civ";
+		};
+		class Item125
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6371.562,13.551676,7003.3286};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=858;
+			type="CUP_C_Golf4_kitty_Civ";
+		};
+		class Item126
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6366.498,13.551676,7003.2241};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=859;
+			type="CUP_C_Golf4_crowe_Civ";
+		};
+		class Item127
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6361.0142,13.571676,7003.1177};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=860;
+			type="CUP_C_Golf4_random_Civ";
+		};
+		class Item128
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6355.1724,13.551676,7003.2158};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=861;
+			type="CUP_C_Golf4_reptile_Civ";
+		};
+		class Item129
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6349.8779,13.571676,7003.2476};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=862;
+			type="CUP_C_Golf4_white_Civ";
+		};
+		class Item130
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6345.4829,13.551676,7003.3535};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=863;
+			type="CUP_C_Golf4_whiteblood_Civ";
+		};
+		class Item131
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6341.1641,13.571676,7002.772};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=864;
+			type="CUP_C_Golf4_yellow_Civ";
+		};
+		class Item132
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6335.7036,13.620124,7002.5957};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=865;
+			type="C_Hatchback_01_F";
+		};
+		class Item133
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6330.6313,13.620124,7002.4907};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=866;
+			type="C_Hatchback_01_sport_F";
+		};
+		class Item134
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6323.2227,13.739596,7002.1548};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=867;
+			type="C_Offroad_02_unarmed_F";
+		};
+		class Item135
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6315.3662,14.551704,7002.1714};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=868;
+			type="C_Truck_02_fuel_F";
+		};
+		class Item136
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6306.9238,14.551704,7001.9702};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=869;
+			type="C_Truck_02_box_F";
+		};
+		class Item137
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6300.3052,14.551758,7002.209};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=870;
+			type="C_Truck_02_transport_F";
+		};
+		class Item138
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6294.2202,14.551758,7001.7397};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=871;
+			type="C_Truck_02_covered_F";
+		};
+		class Item139
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6288.8662,13.222713,7002.916};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=872;
+			type="C_Kart_01_F";
+		};
+		class Item140
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6285.3071,13.222713,7003.2031};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=873;
+			type="C_Kart_01_Blu_F";
+		};
+		class Item141
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6281.2524,13.222713,7003.5435};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=874;
+			type="C_Kart_01_Fuel_F";
+		};
+		class Item142
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6277.6772,13.222713,7003.5796};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=875;
+			type="C_Kart_01_Red_F";
+		};
+		class Item143
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6273.4517,13.222713,7003.7314};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=876;
+			type="C_Kart_01_Vrana_F";
+		};
+		class Item144
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6269.2251,13.781503,7002.1079};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=877;
+			type="C_Offroad_01_F";
+		};
+		class Item145
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6262.6655,13.781503,7002.063};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=878;
+			type="C_Offroad_01_repair_F";
+		};
+		class Item146
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6257.6504,13.796287,7002.4468};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=879;
+			type="C_Quadbike_01_F";
+		};
+		class Item147
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6252.4951,13.60257,7001.7651};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=880;
+			type="CUP_C_Octavia_CIV";
+		};
+		class Item148
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6247.5967,13.766462,7001.4678};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=881;
+			type="C_SUV_01_F";
+		};
+		class Item149
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6241.5698,14.041507,7002.0366};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=882;
+			type="C_Van_01_transport_F";
+		};
+		class Item150
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6234.7148,14.039846,7000.8643};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=883;
+			type="C_Van_01_box_F";
+		};
+		class Item151
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6227.0928,13.959786,7000.1006};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=884;
+			type="C_Van_02_medevac_F";
+		};
+		class Item152
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6220.7207,13.82614,7001.0825};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=885;
+			type="C_Van_02_vehicle_F";
+		};
+		class Item153
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6215.3291,13.82614,7001.2456};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=886;
+			type="C_Van_02_service_F";
+		};
+		class Item154
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6208.0776,13.901961,7000.0391};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=887;
+			type="C_Van_02_transport_F";
+		};
+		class Item155
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6202.3916,13.597024,7002.3794};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=888;
+			type="CUP_C_Skoda_Blue_CIV";
+		};
+		class Item156
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6197.7549,13.597024,7002.2212};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=889;
+			type="CUP_C_Skoda_Green_CIV";
+		};
+		class Item157
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6193.2041,13.597024,7003.1748};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=890;
+			type="CUP_C_Skoda_Red_CIV";
+		};
+		class Item158
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6189.2813,13.597024,7003.9736};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=891;
+			type="CUP_C_Skoda_White_CIV";
+		};
+		class Item159
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6184.1099,13.808334,7002.9902};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=892;
+			type="CUP_C_S1203_Militia_CIV";
+		};
+		class Item160
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6179.3159,14.169944,7003.519};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=893;
+			type="CUP_C_Datsun_Covered";
+		};
+		class Item161
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6174.8428,14.169944,7003.1914};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=894;
+			type="CUP_C_Datsun_Plain";
+		};
+		class Item162
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6170.5166,14.169944,7002.9209};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=895;
+			type="CUP_C_Datsun_Tubeframe";
+		};
+		class Item163
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6166.3828,13.571676,7003.0493};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=896;
+			type="CUP_C_Golf4_red_Civ";
+		};
+		class Item164
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6161.5669,14.045576,7000.7397};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=897;
+			type="CUP_C_Ikarus_Chernarus";
+		};
+		class Item165
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6155.6665,13.668984,7002.915};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=898;
+			type="CUP_C_Lada_White_CIV";
+		};
+		class Item166
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6150.5825,13.668984,7002.207};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=899;
+			type="CUP_LADA_LM_CIV";
+		};
+		class Item167
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6145.0298,13.668984,7002.7803};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=900;
+			type="CUP_C_Lada_Red_CIV";
+		};
+		class Item168
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6139.1357,13.205849,7001.7651};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=901;
+			type="CUP_C_SUV_CIV";
+		};
+		class Item169
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6130.9238,14.359025,7000.0552};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=902;
+			type="CUP_C_Ural_Civ_03";
+		};
+		class Item170
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6123.5225,12.348025,7000.4263};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=903;
+			type="CUP_C_Ural_Open_Civ_03";
+		};
+		class Item171
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6115.812,14.001918,7001.5273};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=904;
+			type="I_MRAP_03_F";
+		};
+		class Item172
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6108.877,14.551704,7001.6685};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=905;
+			type="I_Truck_02_ammo_F";
+		};
+		class Item173
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6101.9072,14.551704,7000.459};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=906;
+			type="I_Truck_02_medical_F";
+		};
+		class Item174
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6095.2129,14.551704,7001.0015};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=907;
+			type="I_Truck_02_box_F";
+		};
+		class Item175
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6088.0039,14.551758,7001.335};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=908;
+			type="I_Truck_02_transport_F";
+		};
+		class Item176
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6082.5859,13.796287,7002.4087};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=909;
+			type="I_Quadbike_01_F";
+		};
+		class Item177
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6078.0405,14.027778,7002.5063};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=910;
+			type="I_G_Van_01_fuel_F";
+		};
+		class Item178
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6071.728,13.781503,7002.061};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=911;
+			type="I_G_Offroad_01_F";
+		};
+		class Item179
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6066.3262,13.779854,7001.5923};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=912;
+			type="I_G_Offroad_01_AT_F";
+		};
+		class Item180
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6061.0488,14.334408,7001.998};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=913;
+			type="I_G_Offroad_01_armed_F";
+		};
+		class Item181
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6055.936,13.781503,7001.9521};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=914;
+			type="I_G_Offroad_01_repair_F";
+		};
+		class Item182
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6050.2095,13.796287,7002.1841};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=915;
+			type="I_G_Quadbike_01_F";
+		};
+		class Item183
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6045.2544,14.041507,7001.9302};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=916;
+			type="I_G_Van_01_transport_F";
+		};
+		class Item184
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6039.5225,13.82614,7001.6851};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=917;
+			type="I_G_Van_02_vehicle_F";
+		};
+		class Item185
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6033.5947,13.901961,7001.335};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=918;
+			type="I_G_Van_02_transport_F";
+		};
+		class Item186
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6028.4883,13.175853,7002.144};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=919;
+			type="CUP_I_SUV_Armored_ION";
+		};
+		class Item187
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6023.1035,14.001918,7003.2227};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=920;
+			type="CUP_I_FENNEK_ION";
+		};
+		class Item188
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6017.1958,14.61967,7002.6069};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=921;
+			type="CUP_I_FENNEK_GMG_ION";
+		};
+		class Item189
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6012.0771,14.619811,7001.2471};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=922;
+			type="CUP_I_FENNEK_HMG_ION";
+		};
+		class Item190
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6006.4917,14.375946,7001.5767};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=923;
+			type="CUP_I_MATV_ION";
+		};
+		class Item191
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6000.7197,14.928222,7002.0186};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=924;
+			type="CUP_I_MATV_GMG_ION";
+		};
+		class Item192
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5994.0889,14.928245,7002.561};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=925;
+			type="CUP_I_MATV_HMG_ION";
+		};
+		class Item193
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5989.4561,13.739596,7002.4727};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=926;
+			type="CUP_I_4WD_AT_ION";
+		};
+		class Item194
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5985.2451,14.351723,7002.7324};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=927;
+			type="CUP_I_4WD_LMG_ION";
+		};
+		class Item195
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5980.6172,13.739596,7002.9282};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=928;
+			type="CUP_I_4WD_unarmed_ION";
+		};
+		class Item196
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5975.6108,13.899819,7002.7046};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=929;
+			type="CUP_I_LSV_02_AT_ION";
+		};
+		class Item197
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5969.3945,13.899819,7002.9697};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=930;
+			type="CUP_I_LSV_02_Minigun_ION";
+		};
+		class Item198
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5964.2427,13.899819,7002.1885};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=931;
+			type="CUP_I_LSV_02_unarmed_ION";
+		};
+		class Item199
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5959.3369,13.205849,7001.5654};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=932;
+			type="CUP_I_SUV_ION";
+		};
+		class Item200
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5953.1582,13.82614,7001.3716};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=933;
+			type="CUP_I_Van_ammo_ION";
+		};
+		class Item201
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5946.8452,13.82614,7001.9927};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=934;
+			type="CUP_I_Van_Cargo_ION";
+		};
+		class Item202
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5940.8262,13.82614,7002.5562};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=935;
+			type="CUP_I_Van_Repair_ION";
+		};
+		class Item203
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5935.4912,13.901961,7001.7627};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=936;
+			type="CUP_I_Van_Transport_ION";
+		};
+		class Item204
+		{
+			dataType="Marker";
+			position[]={6338.668,12.04,7041.4839};
+			name="marker_autos";
+			text="autos";
+			type="hd_objective";
+			colorName="ColorCIV";
+			id=937;
+		};
+		class Item205
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9386.043,11.308882,5035.6611};
+				angles[]={0,1.506795,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{this addAction [""Teleport naar autos"", {player setPos ([""autos""] call CBA_fnc_randPosArea); player setDir 180;} ]}";
+			};
+			id=938;
+			type="MapBoard_altis_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item206
+		{
+			dataType="Marker";
+			position[]={6174.6768,11.962,7029.9731};
+			name="autos";
+			markerType="RECTANGLE";
+			type="rectangle";
+			alpha=0;
+			a=246.68201;
+			b=12.89;
+			id=939;
+			atlOffset=-0.20800018;
+		};
+		class Item207
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6414.4165,14.680796,6961.0435};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=940;
+			type="I_APC_tracked_03_cannon_F";
+		};
+		class Item208
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6408.1768,14.829453,6959.2363};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=941;
+			type="CUP_I_M113_AAF";
+			atlOffset=9.5367432e-007;
+		};
+		class Item209
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6400.8247,14.23508,6958.9912};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=942;
+			type="CUP_I_M113_Med_AAF";
+		};
+		class Item210
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6393.5859,14.784288,6959.9468};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=943;
+			type="I_APC_Wheeled_03_cannon_F";
+		};
+		class Item211
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6387.5313,14.898608,6961.0762};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=944;
+			type="I_MBT_03_cannon_F";
+		};
+		class Item212
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6379.0361,14.338366,6958.2456};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=945;
+			type="I_LT_01_AT_F";
+		};
+		class Item213
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6372.834,14.286743,6958.6177};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=946;
+			type="I_LT_01_cannon_F";
+		};
+		class Item214
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6366.1338,14.286743,6957.3384};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+			};
+			id=947;
+			type="I_LT_01_scout_F";
+		};
+		class Item215
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6359.1304,14.191351,6956.8794};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=948;
+			type="CUP_I_BMP1_TK_GUE";
+		};
+		class Item216
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6351.5327,14.506348,6955.7588};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=949;
+			type="CUP_I_BRDM2_TK_Gue";
+		};
+		class Item217
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6344.853,14.212072,6954.6152};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=950;
+			type="CUP_I_BRDM2_ATGM_TK_Gue";
+		};
+		class Item218
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6338.436,14.59357,6957.1802};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=951;
+			type="CUP_I_BRDM2_HQ_TK_Gue";
+		};
+		class Item219
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6330.3965,14.304052,6955.6348};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=952;
+			type="CUP_I_BTR40_MG_TKG";
+		};
+		class Item220
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6323.6001,13.836983,6954.4893};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=953;
+			type="CUP_I_BTR40_TKG";
 		};
 	};
 };
